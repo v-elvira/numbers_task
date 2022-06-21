@@ -28,6 +28,9 @@
 # Решение
 После установки в виртуальное окружение pip install -r requrements.txt пункты 1-3 выполняются через запуск test_task.py
 Ссыка на Google Sheets: https://docs.google.com/spreadsheets/d/1gxZkyPBxCLwsfKzkpVySeOWaqQBnQYicMjVlZgkyS8U/edit#gid=0
+
 4 а. Контейнер не получился. В docker-compose.yml только PostgreSQL (не знаю, нужен ли)
+
 4 b. Работает. Если запутить отдельно bot_reminder.py, можно подписаться на бота @sales_reminder_bot. Из test_task.py приходят оповещения по уже подписанным адресам.
+
 4 c. Нет
