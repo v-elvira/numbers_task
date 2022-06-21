@@ -26,7 +26,7 @@
 В описании необходимо указать ссылку на ваш Google Sheets документ (открыть права чтения и записи для пользователя sales@numbersss.com ), а также инструкцию по запуску разработанных скриптов.
 
 # Решение
-После установки в виртуальное окружение pip install -r requrements.txt пункты 1-3 выполняются через запуск test_task.py
+После установки в виртуальное окружение pip install -r requirements.txt пункты 1-3 выполняются через запуск test_task.py
 Ссыка на Google Sheets: https://docs.google.com/spreadsheets/d/1gxZkyPBxCLwsfKzkpVySeOWaqQBnQYicMjVlZgkyS8U/edit#gid=0
 
 4 а. Контейнер не получился. В docker-compose.yml только PostgreSQL (не знаю, нужен ли)
