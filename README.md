@@ -26,11 +26,14 @@
 В описании необходимо указать ссылку на ваш Google Sheets документ (открыть права чтения и записи для пользователя sales@numbersss.com ), а также инструкцию по запуску разработанных скриптов.
 
 # Решение
-После установки в виртуальное окружение pip install -r requirements.txt пункты 1-3 выполняются через запуск test_task.py. Скрипт подключается к базе данных postgres с пользователем postgres и паролем pwd, порт 5432.
+После установки в виртуальное окружение pip install -r requirements.txt пункты 1-3 выполняются через запуск test_task.py. 
+
+Скрипт подключается к базе данных postgres с пользователем postgres и паролем pwd, порт 5432.
+
 Ссыка на Google Sheets: https://docs.google.com/spreadsheets/d/1gxZkyPBxCLwsfKzkpVySeOWaqQBnQYicMjVlZgkyS8U/edit#gid=0
 
 4 а. Контейнер не получился. В docker-compose.yml только PostgreSQL (не знаю, нужен ли)
 
-4 b. Работает. Если запустить отдельно bot_reminder.py, можно подписаться на бота @sales_reminder_bot. Из test_task.py приходят оповещения по уже подписанным адресам.
+4 b. Работает. Если запустить отдельно bot_reminder.py, в Telegram можно подписаться на бота @sales_reminder_bot. Из test_task.py приходят оповещения по уже подписанным адресам.
 
 4 c. Нет
