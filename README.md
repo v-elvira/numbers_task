@@ -37,3 +37,6 @@
 4 b. Работает. Если запустить отдельно bot_reminder.py, в Telegram можно подписаться на бота @sales_reminder_bot. Из test_task.py приходят оповещения по уже подписанным адресам.
 
 4 c. Нет
+
+_________________________
+Доделанная версия: https://github.com/v-elvira/excel_to_app
